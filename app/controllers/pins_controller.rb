@@ -17,6 +17,8 @@ before_action :authenticate_user!, except: [:index, :show]
   def edit
   end
 
+
+
   def create
     @pin = current_user.pins.build(pin_params)
     if @pin.save
@@ -25,6 +27,7 @@ before_action :authenticate_user!, except: [:index, :show]
       render :new
     end
   end
+
 
   def update
     if @pin.update(pin_params)
@@ -53,5 +56,6 @@ before_action :authenticate_user!, except: [:index, :show]
     # Never trust parameters from the scary internet, only allow the white list through.
     def pin_params
       params.require(:pin).permit(:description, :image)
+    
     end
 end
