@@ -11,6 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.0'
+gem 'jquery-turbolinks', '~> 2.1'
+gem 'masonry-rails', '~> 0.2.4'
 gem 'aws-sdk', '~> 2.5', '>= 2.5.4'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
