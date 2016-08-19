@@ -12,6 +12,8 @@ gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.0'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'aws-sdk', '~> 2.5', '>= 2.5.4'
+gem 'will_paginate', '~> 3.1'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
