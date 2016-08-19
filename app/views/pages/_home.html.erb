@@ -1,14 +1,9 @@
 <div class="jumbotron center">
      <h1>Welcome to my app!</h1>
-
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/-X3hdFWmerQ" frameborder="0" allowfullscreen></iframe>
-
-     <% if user_signed_in? %>
-          # do something
-     <% else %>
+     
        <p>
          <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
          <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
        </p>
-  <% end %>  
+
 </div>
